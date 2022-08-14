@@ -23,7 +23,7 @@ Route::get('/', function () {
 
 Route::resource('companies', CompaniesController::class)->middleware('auth');
 
-
+//Github
 /*
 Route::get('/user/{name?}', [UserController::class, 'user']);
 Route::get('/users', [UserController::class, 'list']);
